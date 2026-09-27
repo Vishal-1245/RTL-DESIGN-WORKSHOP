@@ -1,0 +1,128 @@
+# Simulation and Build Artifacts
+*.o
+*.out
+*.vvp
+*.vcd
+*.dump
+*.dmp
+
+# Verilog/VHDL Generated Files
+*.edn
+*.json
+*.dot
+*.v~
+*.vhd~
+
+# Synthesis Outputs
+*.netlist
+*.net
+*.edif
+*.sdc
+*.rpt
+*.log
+
+# Yosys Synthesis
+yosys.log
+synth/
+build/
+out/
+
+# Icarus Verilog
+work/
+obj/
+
+# GTKWave
+*.gtkw
+*.gtkws
+
+# Vivado (Xilinx)
+*.jou
+*.wdb
+*.pb
+.Xil/
+.cache/
+vivado*/
+vivado*.jou
+vivado*.log
+
+# Quartus (Intel/Altera)
+*.qws
+*.sof
+*.pof
+*.jic
+db/
+incremental_db/
+output_files/
+
+# Cadence
+xcelium.d/
+xcelium.so
+xmsim.key
+*.wdb
+
+# Model Simulation (Mentor Graphics)
+*.mti
+*.dat
+*.dbs
+*.trn
+*.txT
+work/
+
+# General
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.bak
+*.backup
+
+# OS specific
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE specific
+*.code-workspace
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Documentation
+*.pdf
+*.doc
+*.docx
